@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Kerberoasting",
+    "path": "Active_Directory/kerberoasting/",
+    "tags": [
+      "AD",
+      "hash",
+      "spn"
+    ],
+    "os": [
+      "Windows"
+    ],
+    "difficulty": "Intermediate",
+    "last_updated": ""
+  },
+  {
+    "title": "Windows Privilege Escalation",
+    "path": "Privesc/windows_privesc/",
+    "tags": [
+      "privesc",
+      "windows"
+    ],
+    "os": [
+      "Windows"
+    ],
+    "difficulty": "Advanced",
+    "last_updated": ""
+  },
+  {
+    "title": "SQL Injection",
+    "path": "Web/sql_injection/",
+    "tags": [
+      "Web",
+      "SQLi"
+    ],
+    "os": [
+      "Linux"
+    ],
+    "difficulty": "Beginner",
+    "last_updated": ""
+  }
+]

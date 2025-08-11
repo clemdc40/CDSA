@@ -1,0 +1,8 @@
+{
+  "name": "HTB Cheatsheets",
+  "short_name": "HTB Cheats",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1f1f1f",
+  "description": "Offline Hack The Box cheatsheets"
+}
