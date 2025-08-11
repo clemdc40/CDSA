@@ -1,0 +1,10 @@
+.meta-badges { margin-bottom: 1rem; }
+.badge { display:inline-block; padding:0.2rem 0.5rem; margin-right:0.2rem; border-radius:4px; font-size:0.75rem; }
+.badge.difficulty { background:#00acc1; color:#fff; }
+.badge.tag { background:#37474f; color:#fff; cursor:pointer; }
+.badge.os { background:#2e7d32; color:#fff; }
+.masonry { column-count:3; column-gap:1rem; }
+.masonry .card { break-inside: avoid; background:rgba(255,255,255,0.05); padding:1rem; margin:0 0 1rem; border-radius:8px; backdrop-filter:blur(10px); }
+@media (max-width:800px){ .masonry { column-count:1; } }
+.md-nav--secondary { position:sticky; top:4.8rem; }
+#copy-all { margin-bottom:1rem; }
