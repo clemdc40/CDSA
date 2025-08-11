@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.meta.tags or page.meta.os or page.meta.difficulty %}
+  <div class="meta-badges">
+    {% if page.meta.difficulty %}<span class="badge difficulty">{{ page.meta.difficulty }}</span>{% endif %}
+    {% for t in page.meta.tags %}<span class="badge tag">{{ t }}</span>{% endfor %}
+    {% for o in page.meta.os %}<span class="badge os">{{ o }}</span>{% endfor %}
+  </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ '/overrides/assets/app.js' | url }}"></script>
+{% endblock %}
